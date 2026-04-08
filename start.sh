@@ -1,5 +1,5 @@
 #!/bin/bash
-cd alise_1
+# cd alise_1
 export PORT=5000
 unset PIP_USER
 
