@@ -6,7 +6,9 @@ app = Flask(__name__)
 logging.basicConfig(level=logging.INFO)
 
 sessionStorage = {}
-
+@app.route('/')
+def health_check():
+    return ''
 
 @app.route('/post', methods=['POST'])
 def main():
